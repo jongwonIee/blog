@@ -31,15 +31,16 @@ nav {
 }
 
 header {
-  background-image: image_url('bg.jpg');
   background-size: cover;
   width: 100%;
   /*viewport height*/
   height: 100vh;
-
+  background-image: image_url('bg.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
-
   text-align: center  ;
+}
+
+html {
 }
