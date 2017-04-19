@@ -1,0 +1,2 @@
+class Gemknight < ApplicationRecord
+end
