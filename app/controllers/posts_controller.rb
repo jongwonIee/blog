@@ -3,8 +3,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.all
-    @result = []
-    @result << Post.contribution(362)
+    @result = Post.contribution_sum
   end
 
   def new
